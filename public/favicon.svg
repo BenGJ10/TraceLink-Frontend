@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tracelink-t-gradient" x1="16" y1="8" x2="16" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#1e40af" />
+      <stop offset="100%" stopColor="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="28" height="28" rx="7.5" fill="#ffffff" />
+  <rect x="2" y="2" width="28" height="28" rx="7.5" fill="rgba(255, 255, 255, 0.8)" stroke="#f1f5f9" strokeWidth="0.5" />
+  {/* Solid Blue Fallback for better browser compatibility */}
+  <path d="M9 9H23V12.5H18V24H14V12.5H9V9Z" fill="#1e40af" />
+  <path d="M9 9H23V12.5H18V24H14V12.5H9V9Z" fill="url(#tracelink-t-gradient)" />
+</svg>
